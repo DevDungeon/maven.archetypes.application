@@ -1,0 +1,23 @@
+<archetype>
+    <id>application</id>
+    <sources>
+        <source>src/main/java/SampleMain.java</source>
+    </sources>
+    <resources>
+        <resource>README.md</resource>
+        <resource>.gitignore</resource>
+        <resource>src/main/resources/log4j2.properties</resource>
+        <resource>src/main/resources/icons/devdungeon.icns</resource>
+        <resource>src/main/resources/icons/devdungeon.ico</resource>
+        <resource>src/main/resources/logos/devdungeon128x128.png</resource>
+        <resource>src/main/resources/logos/devdungeon16x16.png</resource>
+        <resource>src/main/resources/logos/devdungeon256x256.png</resource>
+        <resource>src/main/resources/logos/devdungeon32x32.png</resource>
+        <resource>src/main/resources/logos/devdungeon48x48.png</resource>
+        <resource>src/main/resources/logos/devdungeon500x500.png</resource>
+        <resource>src/main/resources/logos/devdungeon64x64.png</resource>
+    </resources>
+    <testSources>
+        <!--<source>src/test/java/SampleMainTest.java</source>-->
+    </testSources>
+</archetype>
