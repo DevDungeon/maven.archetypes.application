@@ -17,14 +17,14 @@ Minimal options, will prompt for needed values
     mvn archetype:generate                                  \
       -DarchetypeGroupId=com.devdungeon.maven.archetypes    \
       -DarchetypeArtifactId=application                     \
-      -DarchetypeVersion=0.1.0
+      -DarchetypeVersion=0.2.0
       
 Provide all values at once
 
     mvn archetype:generate                                  \
       -DarchetypeGroupId=com.devdungeon.maven.archetypes    \
       -DarchetypeArtifactId=application                     \
-      -DarchetypeVersion=0.1.0                              \
+      -DarchetypeVersion=0.2.0                              \
       -DgroupId=com.devdungeon.apps                         \
       -DartifactId=appname                                  \
       -Dversion=1.0.0

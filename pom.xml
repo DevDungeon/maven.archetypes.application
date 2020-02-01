@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.devdungeon.maven.archetypes</groupId>
     <artifactId>application</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <name>com.devdungeon.maven.archetypes:application</name>
     <url>https://github.com/DevDungeon/maven.archetypes.application</url>
   
@@ -80,6 +80,7 @@
                         <configuration>
                             <!-- GPG keyname var set in the settings.xml maven file -->
                             <keyname>${gpg.keyname}</keyname>
+                            <executable>C:\Program Files (x86)\GnuPG\bin\gpg.exe</executable>
                         </configuration>
                     </execution>
                 </executions>
